@@ -1,0 +1,29 @@
+{
+  "name": "fe-cli",
+  "version": "1.0.0",
+  "description": "学习如何从零开始搭建一个脚手架",
+  "bin": {
+    "cli": "bin/cli.js",
+    "cli-add": "bin/cli-add.js",
+    "cli-delete": "bin/cli-delete.js",
+    "cli-list": "bin/cli-list.js",
+    "cli-init": "bin/cli-init.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinhaiying/FE-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinhaiying/FE-CLI/issues"
+  },
+  "homepage": "https://github.com/yinhaiying/FE-CLI#readme",
+  "dependencies": {
+    "commander": "^3.0.2"
+  }
+}
