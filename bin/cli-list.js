@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-const program = require('commander');
+const tplObj = require(`${__dirname}/../template`)
+console.log(tplObj)
